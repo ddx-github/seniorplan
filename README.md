@@ -21,9 +21,9 @@
 ## 如何使用
 
 打开Release页签，选择Latest（最新版）下载senior1_x.x.xlsx文件，使用Office/WPS打印即可。
-或者：
-> 1.在Git Bash中输入：`git clone https://github.com/ddx-github/seniorplan/`
-> 2.进入克隆后的目录，运行`python build_chart.py`
+<br/>或者：
+> 1.在Git Bash中输入：`git clone https://github.com/ddx-github/seniorplan/`<br/>
+> 2.进入克隆后的目录，运行`python build_chart.py`<br/>
 > 3.最后即可在同一目录下找到`高一预习计划表x.x_userBuild.xlsx`，打印即可
 
 ---
