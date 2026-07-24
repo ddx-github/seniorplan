@@ -10,10 +10,10 @@
 ## 📁 文件清单
 
 | 文件名 | 说明 |
-|--------|------|
-| `高一预习计划表_作业阅读整合版.xlsx` | **主文件**：单工作表打印版，整合暑假作业与阅读计划 |
+|--------|-------
+| `高一预习计划表_x.x.xlsx` | **主文件**：单工作表打印版，整合暑假作业与阅读计划 |
 | `build_chart.py` | 源代码，可在Python环境中运行重新构建 |
-| `packageInstaller.bat或packageInstaller.sh` | 自动调用PIP安装依赖库（bat用于Windows，sh用于Linux/MacOS） |
+| `packageInstaller.bat或packageInstaller.sh` | （由于Bat文件有一点问题不建议Windows用户使用）自动调用PIP安装依赖库（bat用于Windows，sh用于Linux/MacOS） |
 | `README.md` | 本说明文档 |
 
 ---
@@ -23,7 +23,8 @@
 打开Release页签，选择Latest（最新版）下载senior1_x.x.xlsx文件，使用Office/WPS打印即可。
 <br/>或者：
 > 1.在Git Bash中输入：`git clone https://github.com/ddx-github/seniorplan/`<br/>
-> 2.进入克隆后的目录，运行`python build_chart.py`<br/>
+> 2.运行packageInstaller，或手动安装：`pip install openpyxl`<br/>
+> 3.进入克隆后的目录，运行`python build_chart.py`<br/>
 > 3.最后即可在同一目录下找到`高一预习计划表x.x_userBuild.xlsx`，打印即可
 
 ---
